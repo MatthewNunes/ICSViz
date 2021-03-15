@@ -3,4 +3,5 @@ __pycache__/
 obj/
 *.py
 *.npy
+*.csv
 ICS\ Data.ipynb
