@@ -16,6 +16,7 @@ python3 -c 'import preprocessor; preprocessor.create2017ArgusFiles("/dir/to/pcap
 python3 -c 'import preprocessor; preprocessor.create2019ArgusFiles("/dir/to/pcaps/")'
 ```
 - Currently the Argus Files are stored in a folder called "ArgusFiles" in the directory containing the pcap files which you need to create before running the commands above. **TODO** allow user to specify where to save files
+- When it comes to the Argus files created from the 2019 dataset, remove the final underscore in the name before the .argus (if there is one). *TODO* Fix this...
 - Create CSVs from Argus files: 
 ```python
 python3 -c 'import preprocessor; preprocessor.createTxtFiles("/dir/to/Argus/Files/")'
