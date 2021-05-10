@@ -5,4 +5,5 @@ obj/
 !preprocessor.py
 *.npy
 *.csv
+*.eps
 ICS\ Data.ipynb
